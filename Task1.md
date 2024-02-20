@@ -32,8 +32,8 @@ as it doesn’t compromise clarity.
 
 **Your video:** You may produce screencasts with any software you choose. 
 
-[One option is to record yourself with Zoom; a tutorial on how to use Zoom to record a screencast (courtesy of Prof. Joe Politz) is here:](https://drive.google.com/open?id=1KROMAQuTCk40zwrEFotlYSJJQdcG_GUU)
+One option is to record yourself with Zoom; a tutorial on how to use Zoom to record a screencast (courtesy of Prof. Joe Politz) is here:[https://drive.google.com/open?id=1KROMAQuTCk40zwrEFotlYSJJQdcG_GUU](https://drive.google.com/open?id=1KROMAQuTCk40zwrEFotlYSJJQdcG_GUU)
 
-[The video that was produced from that recording session in Zoom is here:](https://drive.google.com/open?id=1MxJN6CQcXqIbOekDYMxjh7mTt1TyRVMI)
+The video that was produced from that recording session in Zoom is here:[https://drive.google.com/open?id=1MxJN6CQcXqIbOekDYMxjh7mTt1TyRVMI](https://drive.google.com/open?id=1MxJN6CQcXqIbOekDYMxjh7mTt1TyRVMI)
 
 Please send an email to the instructors (minnes@ucsd.edu) if you have concerns about the video / screencast components of this project or cannot complete projects in this style for some reason.

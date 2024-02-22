@@ -21,12 +21,10 @@ public class NFAtoDFA {
         nfaTransitions.put(new Pair<>(new State("q2"), '1'), new HashSet<>(Arrays.asList(new State("q2"))));
 
         // Convert NFA to DFA
-        Set<State> dfaStates = new HashSet<>();
-        Set<Set<State>> dfaStatesSets = new HashSet<>();
+        Set<Set<State>> dfaStates = new HashSet<>();
         Map<Pair<Set<State>, Character>, Set<State>> dfaTransitions = new HashMap<>();
         Set<State> initialDfaState = epsilonClosure(nfaTransitions, nfaInitialState);
         dfaStates.add(initialDfaState);
-        dfaStatesSets.add(initialDfaState);
         Queue<Set<State>> queue = new LinkedList<>();
         queue.add(initialDfaState);
         
@@ -42,9 +40,8 @@ public class NFAtoDFA {
                 }
                 if (!nextStateSet.isEmpty()) {
                     dfaTransitions.put(new Pair<>(currentStateSet, symbol), nextStateSet);
-                    if (!dfaStatesSets.contains(nextStateSet)) {
+                    if (!dfaStates.contains(nextStateSet)) {
                         dfaStates.add(nextStateSet);
-                        dfaStatesSets.add(nextStateSet);
                         queue.add(nextStateSet);
                     }
                 }
